@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    width: 1389px;;
+    height:auto;
+    overflow-x: hidden;
+}
+.stade{
+    width: 939px;
+    height: 89vh;
+  background-color:green;
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    margin:auto;
+
+}
+.peulouse{
+    border: solid 2px white;
+     margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 73vh;
+    width: 839px;
+    background-image:repeating-radial-gradient(green, green, #40c740,green,green,#40c740,green, green, #40c740,green, green, #40c740,green, green, #40c740,green, green, #40c740,green, green, #40c740);
+    display: flex;
+    margin-top: 41px;
+}
+.gauche{
+    display: block;
+}
+.part1{
+    border: solid 2px white;
+    width: 161px;
+    height: 50vh;
+    border-left: none;
+    
+}
+.poto1{
+    width: 22px;
+    height: 4vh;
+    border-right: solid 1px white;
+    border-bottom: solid 1px white;
+    transform: translate(-1px,-41px);
+    border-radius: 28px;
+}
+.poto2{
+    width: 22px;
+    height: 4vh;
+    border-right: solid 1px white;
+    border-top: solid 1px white;
+    transform: translate(-1px,41px);
+    border-radius: 28px;
+}
+.poto3{
+    width: 22px;
+    height: 4vh;
+    border-left: solid 1px white;
+    border-bottom: solid 1px white;
+    transform: translate(138px,-64px);
+    border-radius: 28px;
+}
+.poto4{
+    width: 22px;
+    height: 4vh;
+    border-left: solid 1px white;
+    border-top: solid 1px white;
+    transform: translate(139px,152px);
+    border-radius: 28px;
+}
+.part2{
+    border: solid 2px white;
+    width: 161px;
+    height: 50vh;
+    border-right: none;
+}
+.can1{
+    border: solid 2px white;
+    width: 80px;
+    height: 25vh;
+    transform: translate(-2px,64px);
+    border-left: none;
+
+}
+.can2{
+    border: solid 2px white;
+    width: 80px;
+    height: 25vh;
+    transform: translate(80px,43px);
+    border-right: none;
+
+}
+.middle{
+    border: solid 1px white;
+    height: 100%;
+    width:1px;
+}
+.circle{
+    border: solid 2px white;
+    align-items: center;
+    width: 101px;
+    height: 101px;
+    border-radius: 50%;
+    transform: translate(-50px, 144px);
+}
+.point{
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(-6px,88px);
+}
