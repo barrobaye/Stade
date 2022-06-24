@@ -6,33 +6,64 @@ body{
     height:auto;
     overflow-x: hidden;
 }
+
 .stade{
     width: 939px;
     height: 89vh;
-  background-color:green;
+    background-color:rgb(7, 206, 7);
     align-items: center;
     justify-content:center;
-    display: flex;
+    display: block;
     margin:auto;
 
 }
+
+.entrersurface1{
+    width: 98px;
+    height: 21vh;
+    border-right: solid 2px white;
+    border-radius: 50%;
+    transform: translate(-55px, 79px);
+}  
+.entrersurface2{
+    width: 98px;
+    height: 21vh;
+    border-left: solid 2px white;
+    border-radius: 50%;
+    transform: translate(74px, 82px);
+ }  
+
 .peulouse{
     border: solid 2px white;
-     margin: auto;
-    align-items: center;
+    transform: translate(87px, 41px);    align-items: center;
     justify-content: space-between;
     height: 73vh;
-    width: 839px;
-    background-image:repeating-radial-gradient(green, green, #40c740,green,green,#40c740,green, green, #40c740,green, green, #40c740,green, green, #40c740,green, green, #40c740,green, green, #40c740);
+    width: 777px;
+    background-image:repeating-radial-gradient(green, green, #014e01,green,green,#014e01,green, green, #014e01,green, green, #014e01,green, green, #014e01,green, green, #014e01,green, green, #014e01);
     display: flex;
     margin-top: 41px;
+    margin-left:none;
+
+}
+.mileu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25%;
+    height: 100%;
 }
 .gauche{
-    display: block;
+    display: flex;
+    width: 35%;
+}
+.droite{
+    width: 35%; 
+    display: flex;
 }
 .part1{
+    
     border: solid 2px white;
-    width: 161px;
+    width: 154px;
     height: 50vh;
     border-left: none;
     
@@ -42,7 +73,7 @@ body{
     height: 4vh;
     border-right: solid 1px white;
     border-bottom: solid 1px white;
-    transform: translate(-1px,-41px);
+    transform: translate(-1px,-57px);
     border-radius: 28px;
 }
 .poto2{
@@ -50,7 +81,7 @@ body{
     height: 4vh;
     border-right: solid 1px white;
     border-top: solid 1px white;
-    transform: translate(-1px,41px);
+    transform: translate(0px,127px);
     border-radius: 28px;
 }
 .poto3{
@@ -58,7 +89,7 @@ body{
     height: 4vh;
     border-left: solid 1px white;
     border-bottom: solid 1px white;
-    transform: translate(138px,-64px);
+    transform: translate(132px,-59px);    
     border-radius: 28px;
 }
 .poto4{
@@ -66,28 +97,31 @@ body{
     height: 4vh;
     border-left: solid 1px white;
     border-top: solid 1px white;
-    transform: translate(139px,152px);
+    transform: translate(131px,128px);
     border-radius: 28px;
 }
 .part2{
+   margin-left:auto;
     border: solid 2px white;
-    width: 161px;
+    width: 154px;
     height: 50vh;
     border-right: none;
 }
 .can1{
+ 
     border: solid 2px white;
     width: 80px;
     height: 25vh;
-    transform: translate(-2px,64px);
+    transform: translate(-2px,46px);
     border-left: none;
 
 }
 .can2{
+   
     border: solid 2px white;
     width: 80px;
     height: 25vh;
-    transform: translate(80px,43px);
+    transform: translate(74px,41px);
     border-right: none;
 
 }
@@ -102,12 +136,75 @@ body{
     width: 101px;
     height: 101px;
     border-radius: 50%;
-    transform: translate(-50px, 144px);
+    transform: translate(-50px, 129px);
 }
 .point{
+    background-color:white;
     width: 12px;
     height: 12px;
+    border-radius: 50%;
+    transform: translate(-6px,75px);
+}
+.pointpenaty{
+    width: 7px;
+    height: 7px;
     background-color: white;
     border-radius: 50%;
-    transform: translate(-6px,88px);
+    transform: translate(103px , -25px);
 }
+.pointpenaty2{
+    width: 7px;
+    height: 7px;
+    background-color: white;
+    border-radius: 50%;
+    transform: translate(44px , -25px);
+}
+.nomDuStade{
+    width: 100%;
+    font-style: italic;
+    font-family: monospace;
+    position: absolute;
+    opacity: 0.1;
+    font-size: xxx-large;
+    color: white;
+    transform: translate(-195px, 117px);
+}
+.circl{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: aquamarine;
+    margin: 0 15px;
+    animation: loader  infinite 0.3s alternate;
+}
+
+ .dot{
+    height: 15px;
+    width: 15px;
+    margin: 5px;
+    border-radius: 50%;
+    animation: bouger 1.5s ease-in infinite;
+}
+.circl:nth-of-type(2){
+    animation-delay: 1.2s;
+   
+}
+.circl:nth-of-type(2){
+    animation-delay: 2.2s;
+   
+} 
+@keyframes bouger{
+    0%,100%{
+        transform: translateY(0px);
+        width: 10px;
+        height: 10px;
+    }
+
+    50%{
+        transform: translateY(-10px);
+        width: 200px;
+        height: 200px;
+    }
+
+}
+
