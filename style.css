@@ -2,48 +2,162 @@
     box-sizing: border-box;
 }
 body{
-    width: 1389px;;
-    height:auto;
+    margin: 0;
+    width: 1389px;
+    height: auto;
     overflow-x: hidden;
+    overflow-y: hidden;
+}
+.body-stadium{
+    height: 100vh;
+    width: 100%;
+    border-radius: 191px;
+    background-color: black;
 }
 
-.stade{
-    width: 939px;
-    height: 89vh;
-    background-color:rgb(7, 206, 7);
-    align-items: center;
-    justify-content:center;
+.tribunecan1 {
+    margin-left: 118px;
+    border-top: 70px solid rgb(129, 138, 1);
+    border-left: 54px solid transparent;
+    border-right: 68px solid transparent;
     display: block;
-    margin:auto;
+    margin-top: -9px;
+    width: 1155px;
+    height: 7vh;
+}
+#ran1{
+    justify-content: space-around;
+    transform: translate(18px, -64px);
+    width: auto;
+    display: flex;
+    height: auto;
+}
+#ran2 {
+    transform: translate(125px, -7px);
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    align-content: normal;
+}
+#ran2A {
+    transform: translate(125px, -7px);
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+    align-content: normal;
+}
+#jaune{
+    width:17px;
+    height:15px;
+    justify-content:space-around;
+    margin-bottom: 0px;
+
+}
+#jau{
+    width:12px;
+    height:12px;
+}
+#mouv{
+    width:12px;
+    height:12px;
+}
+
+.tribunecan2 {
+    transform: translateY(-44px);
+    margin-left: 62px;
+    margin-bottom: -45px;
+    border-left: 224px solid green;
+    border-top: 42px solid transparent;
+    border-bottom: 45px solid transparent;
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    position: left;
+    width: 16%;
+    height: 89vh;
+}
+
+.tribunecan4 {
+    transform: translateY(-45px);
+    margin-right: 91px;
+    border-right: 204px solid rgb(83, 1, 1);
+    border-top: 45px solid transparent;
+    border-bottom: 23px solid transparent;
+    justify-content: space-between;
+    align-items: center;
+    display: block;
+    position: left;
+    height: 89vh;
+}
+
+.tribunecan3 {
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 12px;
+    background-color: rgb(7, 206, 7);
+    width: 781px;
+    height: 14vh;
+    display: flex;
+    margin-left: 315px;
+} 
+.bandetouche1{
+    border: solid 2px white;
+    width: 138px;
+    height: 40px;
+    margin-top: 22px;
+    margin-left: 179px;
+ 
+} 
+.bandetouche2 {
+    border: solid 2px white;
+    width: 138px;
+    height: 40px;
+    margin-top: 22px;
+    margin-right: 179px;
+   
+}
+.face{
+    margin-left:30px;
+    height:72vh;
+    width:100%;
+    display: flex;
 
 }
 
-.entrersurface1{
-    width: 98px;
-    height: 21vh;
-    border-right: solid 2px white;
-    border-radius: 50%;
-    transform: translate(-55px, 79px);
-}  
+.stade {
+    display: flex;
+    width: 777px;
+    height: 78vh;
+    background-color: rgb(7, 206, 7);
+}
+
+    .entrersurface1 {
+        width: 78px;
+        height: 19vh;
+        border-right: solid 2px white;
+        border-radius: 50%;
+        transform: translate(-44px, 68px);
+    }
+  
 .entrersurface2{
-    width: 98px;
-    height: 21vh;
+    width: 78px;
+    height: 19vh;
     border-left: solid 2px white;
     border-radius: 50%;
-    transform: translate(74px, 82px);
+    transform: translate(86px, 68px);
  }  
 
 .peulouse{
     border: solid 2px white;
-    transform: translate(87px, 41px);    align-items: center;
+    transform: translate(37px, -13px);  
+     align-items: center;
     justify-content: space-between;
-    height: 73vh;
-    width: 777px;
+    height: 70vh;
+    width: 700px;
     background-image:repeating-radial-gradient(green, green, #014e01,green,green,#014e01,green, green, #014e01,green, green, #014e01,green, green, #014e01,green, green, #014e01,green, green, #014e01);
     display: flex;
     margin-top: 41px;
     margin-left:none;
-
 }
 .mileu{
     display: flex;
@@ -63,8 +177,8 @@ body{
 .part1{
     
     border: solid 2px white;
-    width: 154px;
-    height: 50vh;
+    width: 124px;
+    height: 44vh;
     border-left: none;
     
 }
@@ -73,7 +187,7 @@ body{
     height: 4vh;
     border-right: solid 1px white;
     border-bottom: solid 1px white;
-    transform: translate(-1px,-57px);
+    transform: translate(-4px,-75px);
     border-radius: 28px;
 }
 .poto2{
@@ -81,7 +195,7 @@ body{
     height: 4vh;
     border-right: solid 1px white;
     border-top: solid 1px white;
-    transform: translate(0px,127px);
+    transform:translate(-4px,129px);
     border-radius: 28px;
 }
 .poto3{
@@ -89,7 +203,7 @@ body{
     height: 4vh;
     border-left: solid 1px white;
     border-bottom: solid 1px white;
-    transform: translate(132px,-59px);    
+    transform: translate(103px,-73px);  
     border-radius: 28px;
 }
 .poto4{
@@ -97,31 +211,31 @@ body{
     height: 4vh;
     border-left: solid 1px white;
     border-top: solid 1px white;
-    transform: translate(131px,128px);
+    transform: translate(103px,129px);
     border-radius: 28px;
 }
 .part2{
    margin-left:auto;
     border: solid 2px white;
-    width: 154px;
-    height: 50vh;
+    width: 124px;
+    height: 44vh;
     border-right: none;
 }
 .can1{
  
     border: solid 2px white;
-    width: 80px;
-    height: 25vh;
-    transform: translate(-2px,46px);
+    width: 70px;
+    height: 24vh;
+    transform: translate(-1px,30px);
     border-left: none;
 
 }
 .can2{
    
     border: solid 2px white;
-    width: 80px;
-    height: 25vh;
-    transform: translate(74px,41px);
+    width: 70px;
+    height: 24vh;
+    transform: translate(54px,28px);
     border-right: none;
 
 }
@@ -133,31 +247,33 @@ body{
 .circle{
     border: solid 2px white;
     align-items: center;
-    width: 101px;
-    height: 101px;
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
-    transform: translate(-50px, 129px);
+    transform: translate(-45px, 147px);
+
 }
 .point{
     background-color:white;
     width: 12px;
     height: 12px;
     border-radius: 50%;
-    transform: translate(-6px,75px);
+    transform: translate(-6px,99px);
+
 }
 .pointpenaty{
     width: 7px;
     height: 7px;
     background-color: white;
     border-radius: 50%;
-    transform: translate(103px , -25px);
+    transform: translate(86px , -40px);
 }
 .pointpenaty2{
     width: 7px;
     height: 7px;
     background-color: white;
     border-radius: 50%;
-    transform: translate(44px , -25px);
+    transform: translate(32px , -40px)
 }
 .nomDuStade{
     width: 100%;
