@@ -28,8 +28,32 @@ body{
 #ran1{
     justify-content: space-around;
     transform: translate(18px, -64px);
-    width: auto;
     display: flex;
+
+
+}
+#colc1{
+    margin-left: 202px;
+        width: auto;
+    display: block;
+    height: auto;
+}
+#colc2{
+    
+    width: auto;
+    display: block;
+    height: auto;
+}
+#colg1{
+    margin-left: -216px;
+    width: auto;
+    display: block;
+    height: auto;
+}
+#colg2{
+    transform: translate(-192px, 10px);
+    width: auto;
+    display: block;
     height: auto;
 }
 #ran2 {
@@ -58,6 +82,12 @@ body{
     height:12px;
 }
 #mouv{
+   
+    width:12px;
+    height:12px;
+}
+#vue{
+   
     width:12px;
     height:12px;
 }
@@ -71,22 +101,23 @@ body{
     border-bottom: 45px solid transparent;
     justify-content: space-between;
     align-items: center;
-    display: block;
+    display: flex;
     position: left;
     width: 16%;
     height: 89vh;
 }
 
 .tribunecan4 {
-    transform: translateY(-45px);
+    transform: translate(65px, -44px);
     margin-right: 91px;
     border-right: 204px solid rgb(83, 1, 1);
     border-top: 45px solid transparent;
     border-bottom: 23px solid transparent;
     justify-content: space-between;
     align-items: center;
-    display: block;
+    display: flex;
     position: left;
+    width: 16%;
     height: 89vh;
 }
 
@@ -119,12 +150,14 @@ body{
 .face{
     margin-left:30px;
     height:72vh;
-    width:100%;
+    width: 1458px;
     display: flex;
 
 }
 
 .stade {
+    margin-left: -9px;
+    margin-right: -97px;
     display: flex;
     width: 777px;
     height: 78vh;
