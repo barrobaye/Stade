@@ -12,12 +12,12 @@ body{
     height: 100vh;
     width: 100%;
     border-radius: 191px;
-    background-color: black;
+    background-color:white;
 }
 
 .tribunecan1 {
     margin-left: 118px;
-    border-top: 70px solid rgb(129, 138, 1);
+    border-top: 70px solid  rgb(238, 255, 0);
     border-left: 54px solid transparent;
     border-right: 68px solid transparent;
     display: block;
@@ -26,43 +26,164 @@ body{
     height: 7vh;
 }
 #ran1{
-    justify-content: space-around;
-    transform: translate(18px, -64px);
+    transform: translate(-39px, -64px);
     display: flex;
+}
+#ran2{
+    transform: translate(-13px, -64px);
+    width: 100%;
+}
+#ran3{
+    transform:translate(47px, -86px);
+    display: flex;
+}
+#ran4{
+ transform: translate(129px, -86px);
+    display: flex;
+}
 
 
-}
-#colc1{
-    margin-left: 202px;
-        width: auto;
-    display: block;
-    height: auto;
-}
 #colc2{
-    
-    width: auto;
+    transform: translate(31px, 1px);
+        width: 15px;
     display: block;
     height: auto;
 }
-#colg1{
-    margin-left: -216px;
+#colc3{
+    transform: translate(34px, -6px);
     width: auto;
+display: block;
+height: auto;
+}
+#colc4{
+    transform:translate(35px, -8px);
+    width: auto;
+display: block;
+height: auto;
+}
+#colc5{
+    transform:translate(39px, -16px);
+    width: auto;
+display: block;
+height: auto;
+}
+#colc6{
+    transform:translate(41px, -22px);
+    width: auto;
+display: block;
+height: auto;
+}
+#colc7{
+    transform: translate(42px, -20px);
+    width: auto;
+display: block;
+height: auto;
+}
+#colc8{
+    transform: translate(46px, -20px);
+    width: auto;
+display: block;
+height: auto;
+}
+#colc9{
+    transform: translate(47px, -22px);
+    width: auto;
+display: block;
+height: auto;
+}
+#colc10{
+    transform: translate(48px, -30px);
+    width: auto;
+display: block;
+height: auto;
+}
+#colc11{
+    transform: translate(48px, -4px);
+        width: auto;
+display: block;
+height: auto;
+}
+#colc12{
+
+    transform: translate(50px, -8px);
+        width: auto;
+display: block;
+height: auto;
+}
+#colg03 {
+    transform: translate(-315px, 15px);
+    width: 17px;
     display: block;
-    height: auto;
+    height: 91vh;
+}
+#colg02 {
+    transform: translate(-351px, 13px);
+        width: 17px;
+    display: block;
+    height: 91vh;
+}
+#colg01 {
+    transform: translate(-385px, 9px);
+       width: 17px;
+    display: block;
+    height: 91vh;
+}
+
+#colg1 {
+    transform: translate(-167px, 20px);
+    width: 17px;
+    display: block;
+    height: 91vh;
 }
 #colg2{
-    transform: translate(-192px, 10px);
-    width: auto;
+    transform: translate(-165px, 3px);
+        width: 14px;
     display: block;
     height: auto;
 }
-#ran2 {
-    transform: translate(125px, -7px);
-    width: 100%;
-    justify-content: flex-start;
-    display: flex;
-    align-content: normal;
+#colg3{
+    transform: translate(-160px, 7px);
+    width: 14px;
+    display: block;
+    height: auto;
 }
+#colg5{
+    transform: translate(-153px, 3px);
+    width: 14px;
+    display: block;
+    height: auto;
+}
+#colg6{
+    transform: translate(-149px, -1px);
+        width: 14px;
+    display: block;
+    height: auto;
+}
+#colg7{
+    transform: translate(-144px, 3px);
+        width: 14px;
+    display: block;
+    height: auto;
+}
+#colg8{
+    transform: translate(-140px, 2px);
+        width: 14px;
+    display: block;
+    height: auto;
+}
+#colg9 {
+    transform: translate(-134px, 2px);
+    width: 14px;
+    display: block;
+    height: auto;
+}
+#colg4{
+    transform: translate(-157px, 0px);
+    width: 14px;
+    display: block;
+    height: auto;
+}
+
 #ran2A {
     transform: translate(125px, -7px);
     width: 100%;
@@ -71,32 +192,26 @@ body{
     align-content: normal;
 }
 #jaune{
-    width:17px;
-    height:15px;
+    width: 22px;
+    height: 15px;
     justify-content:space-around;
     margin-bottom: 0px;
 
 }
-#jau{
-    width:12px;
-    height:12px;
-}
 #mouv{
-   
-    width:12px;
-    height:12px;
+    width: 22px;
+    height: 15px;
 }
 #vue{
-   
-    width:12px;
-    height:12px;
+    width: 22px;
+    height: 15px;
 }
 
 .tribunecan2 {
     transform: translateY(-44px);
     margin-left: 62px;
     margin-bottom: -45px;
-    border-left: 224px solid green;
+    border-left: 224px solid rgb(137, 226, 4);
     border-top: 42px solid transparent;
     border-bottom: 45px solid transparent;
     justify-content: space-between;
@@ -110,7 +225,7 @@ body{
 .tribunecan4 {
     transform: translate(65px, -44px);
     margin-right: 91px;
-    border-right: 204px solid rgb(83, 1, 1);
+    border-right: 204px solid rgb(247, 60, 60);
     border-top: 45px solid transparent;
     border-bottom: 23px solid transparent;
     justify-content: space-between;
@@ -344,13 +459,13 @@ body{
 } 
 @keyframes bouger{
     0%,100%{
-        transform: translateY(0px);
         width: 10px;
         height: 10px;
+        transform: rotate3d(310deg);
     }
 
     50%{
-        transform: translateY(-10px);
+        transform: rotate3d(205deg);
         width: 200px;
         height: 200px;
     }
