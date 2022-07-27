@@ -17,28 +17,25 @@ function show() {
         let value = element.getAttribute("value");
       
         for (let i = 0; i < value; i++) {
-            let img = document.createElement("img");
-            img.src = "img/chaise.png";
-            img.id = "jaune"
-            element.appendChild(img);
+            let chaise = document.createElement("div");
+            chaise.id = "jaune"
+            element.appendChild(chaise);
         }
     }
     for (const element of tri2) {
         let value = element.getAttribute("value");
         for (let i = 0; i < value; i++) {
-            let img = document.createElement("img");
-            img.src = "img/chaisetribune2.png";
-            img.id = "mouv"
-            element.appendChild(img);
+            let chaise = document.createElement("div");
+            chaise.id = "mouv"
+            element.appendChild(chaise);
         }
     }
     for (const element of tric) {
         let value = element.getAttribute("value");
         for (let i = 0; i < value; i++) {
-            let img = document.createElement("img");
-            img.src = "img/chaisetribune4.png";
-            img.id = "vue"
-            element.appendChild(img);
+            let chaise = document.createElement("div");
+            chaise.id = "vue"
+            element.appendChild(chaise);
         }
     }
 

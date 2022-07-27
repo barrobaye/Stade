@@ -17,7 +17,7 @@ body{
 
 .tribunecan1 {
     margin-left: 118px;
-    border-top: 70px solid  rgb(238, 255, 0);
+    border-top: 70px solid  white;
     border-left: 54px solid transparent;
     border-right: 68px solid transparent;
     display: block;
@@ -26,17 +26,26 @@ body{
     height: 7vh;
 }
 #ran1{
-    transform: translate(-39px, -64px);
+    width: 1136px;
+    justify-content: space-between;
+    transform: translate(-39px, -60px);
     display: flex;
 }
 #ran2{
-    transform: translate(-13px, -64px);
-    width: 100%;
-}
-#ran3{
-    transform:translate(47px, -86px);
+    width: 1004px;
+    margin-left: 37px;
+    justify-content: space-evenly;
+    transform: translate(-13px, -53px);
     display: flex;
 }
+#ran3{
+    margin-left: 48px;
+    width: 879px;
+    transform: translate(47px, -46px);
+    display: flex;
+    justify-content: space-evenly;
+}
+
 #ran4{
  transform: translate(129px, -86px);
     display: flex;
@@ -192,10 +201,14 @@ height: auto;
     align-content: normal;
 }
 #jaune{
-    width: 22px;
-    height: 15px;
-    justify-content:space-around;
+    box-shadow: 2px 3px 7px;
+    border-top-left-radius: 7px;
+    background-color: yellow;
+    width: 23px;
+    height: 13px;
+    justify-content: space-around;
     margin-bottom: 0px;
+    border-top-right-radius: 7px;
 
 }
 #mouv{
